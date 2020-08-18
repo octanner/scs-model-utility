@@ -11,7 +11,11 @@ component output='false' displayname='ModelUtils' {
 		return isArray( arguments.value ) ? arguments.value.toList() : arguments.value;
 	}
 
-	function createQueryFilters( providedFilters, allowedFilters ) {
+	function createQueryFilters(
+		allowedFilters,
+		providedFilters,
+		specialFilters
+	) {
 		var sql    = '';
 		var params = {};
 
@@ -35,6 +39,13 @@ component output='false' displayname='ModelUtils' {
 
 			sql &= ' AND #filterProperties.columnName# IN (:#filterName#)';
 		} );
+
+		if ( structKeyExists( arguments, 'specialFilters' ) AND !structIsEmpty( arguments.specialFilters ) ) {
+			specialFilters.each( function( filterName, filterValue ) {
+				sql &= filterValue;
+			} );
+		};
+
 		return { 'params' : params, 'sql' : sql };
 	}
 
