@@ -9,7 +9,7 @@ The Model Utility is a module that will simplify the use of Models by providing 
 ## Getting Started
 Get a copy of the module into your project
 ```
-box install scs-model-utility
+box install model-utility
 ```
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
