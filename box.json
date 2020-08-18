@@ -1,0 +1,29 @@
+{
+    "name": "Model Utility",
+    "slug": "model-utility",
+    "version": "1.0.0",
+    "private": false,
+    "shortDescription": "A module to provide common functionality for models",
+    "location": "octanner/scs-model-utility#v1.0.4",
+    "type": "modules",
+    "ignore": [
+        "**/.*",
+        "/test/",
+        "/tests/"
+    ],
+    "author": "Eduardo Gomez",
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "URL": "https://github.com/octanner/scs-model-utility"
+    },
+    "scripts": {
+        "postVersion": "package set location='octanner/scs-model-utility#v`package version`'",
+        "prePublish": "echo 'git tag v`env show interceptData.BOXJSON.version`' | run && echo 'git push origin v`env show interceptData.BOXJSON.version`' | run"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "testbox": "^4.1.0+384"
+    }
+}
