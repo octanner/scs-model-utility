@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "private": false,
     "shortDescription": "A module to provide common functionality for models",
-    "location": "octanner/scs-model-utility#v1.0.4",
+    "location": "octanner/scs-model-utility#v1.0.0",
     "type": "modules",
     "ignore": [
         "**/.*",
