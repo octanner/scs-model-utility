@@ -1,7 +1,7 @@
 # scs-model-utility
 
 # Model Utility
-![Master Branch Build Status(https://www.forgebox.io/view/scs-model-utility)](https://www.forgebox.io/api/v1/entry/scs-model-utility/badges/version)![Master Branch Download Status(https://www.forgebox.io/view/scs-model-utility)](https://www.forgebox.io/api/v1/entry/scs-model-utility/badges/downloads)
+![Master Branch Build Status(https://www.forgebox.io/view/model-utility)](https://www.forgebox.io/api/v1/entry/model-utility/badges/version)![Master Branch Download Status(https://www.forgebox.io/view/model-utility)](https://www.forgebox.io/api/v1/entry/model-utility/badges/downloads)
 
 The Model Utility is a module that will simplify the use of Models by providing common functionality and actions done on a model.
 ...
