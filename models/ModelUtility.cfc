@@ -1,4 +1,4 @@
-component output='false' displayname='ModelUtils' {
+component output='false' displayname='ModelUtility' {
 
 	boolean function notFoundInAllowedFilters(
 		required string filterName,
