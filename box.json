@@ -12,7 +12,7 @@
         "/tests/"
     ],
     "author":"Eduardo Gomez",
-    "contributors":[],
+    "contributors":["Dan Murphy", "Mike Burt", "Mike Weston"],
     "repository":{
         "type":"git",
         "URL":"https://github.com/octanner/scs-model-utility"
